@@ -1,0 +1,178 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title> pagina de exemplo estrutura basica </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Daniel">
+        <meta name="description" content="descrição bacanuda">
+        <meta name="keywords" content="html5, tecnologia">
+    </head>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            width: 80%;
+            margin: 0 auto;
+            background-color: whitesmoke;
+        }
+        header {
+            background-color:#161F2A;
+            margin-top: 100px;
+        }
+        .content-cabecalho img{
+            display: inline-block;
+            width: 12%;
+            margin-left: 17%;
+            margin-top: 10px;
+        }
+        .content-cabecalho p{
+            display: block;
+            color: #536777;
+            font-size: 20px;
+            float: right;
+            margin-right: 5%;
+            padding: 10px 0;
+            text-align: right;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        .picture{
+            width: 100%;
+        }
+        .product-description {
+            text-align: center;
+            margin: 100px auto 0;
+            width: 80%;
+        }
+        .product-description h1{
+            font-size: 60px;
+            padding-top: 10px;
+        }
+        .product-description p{
+            padding-top: 10px;
+            color: #363636;
+            font-size: 22px;
+            letter-spacing: 1px;
+            line-height: 2;
+        }
+
+        .card{
+            margin-top: 80px;
+            display: inline-block;
+            padding: 0px 20px;
+        }
+        .card img{
+            width: 350px;
+        }
+        .card h3{
+            margin-top: 10px;
+            margin-bottom: 0;
+            font-size: 35px;
+            color: #363636;
+            letter-spacing: 2px;
+        }
+        .card p{
+            margin-top: 0;
+            margin-bottom: 0;
+            color: #929292;
+            font-size: 20px;
+        }
+        .content-description{
+            padding: 100px 150px 150px 150px;
+            background-image: url(imagens/bg_detalhe.png);
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center right;
+            margin: 100px auto 0;
+        }
+        .content-description h1{
+            margin-right: 10%;
+            font-size: 80px;
+            color: white;
+        }
+        .content-description p{
+            font-size: 22px;
+            color: white;
+            margin-right: 45%;
+            line-height: 1.5
+        }
+        .contact{
+            color: #003E54;
+            font-size: 40px;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: bold;
+            line-height: 0;
+            margin:80px 0px;
+        }
+        .localization iframe{
+            width: 100%;
+            height: 700px;
+        }
+        footer{
+            background-color: #07070A;
+            font-size: 18px;
+            color: #014963;
+            text-align: center;
+            letter-spacing: 9px;
+            padding: 35px;
+            margin: 60px 0px 120px 0px;
+        }
+    </style>
+    <body>
+        <div>
+            <header class="cabecalho">        
+                <div class="content-cabecalho">
+                    <img class="logo" src="imagens/logo.png" alt=""></img>
+                    <p>Contact</p>
+                    <p>About us</p>
+                    <p>Portfolio</p>
+                </div>
+                <img class="picture" src="imagens/topo.jpg" alt=""></img>
+            </header>
+            <main >
+                <div class="product-description">
+                    <h1>New Fashion Everything Never Enough</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris volutpat nisi non ante dictum congue.Cras id odio gravida, posuere velit sed, lacinia mi.
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vehicula, ipsum vel congue cursus, mi neque tincidunt enim,
+                        egestas porttitor felis neque et risus. Maecenas fringilla hendrerit enim malesuada laoreet. Aenean quis tortor a odio tempus tincidunt.
+                        Vivamus rutrum nulla sed metus congue bibendum. Sed ut aliquam purus. Donec odio mauris, commodo sed dignissim vitae, dapibus eget mauris.
+                    </p>
+                    <div class="card">
+                        <img src="imagens/modelo1.jpg" alt=""></img>
+                        <h3>Vest  Romasa</h3>
+                        <p>Strong & charismatic</p>
+                    </div>
+                    <div class="card">
+                        <img src="imagens/modelo2.jpg" alt=""></img>
+                        <h3>Jacket Fima</h3>
+                        <p>Strong Sersonality</p>
+                    </div>
+                    <div class="card">
+                        <img src="imagens/modelo3.jpg" alt=""></img>
+                        <h3>Jacket Black Kira</h3>
+                        <p>Power Fascinating</p>
+                    </div>
+                </div>
+                <div class="content-description">
+                    <h1>Everything Never Enough Just Fashion</h1>
+                    <p>Praesent placerat eros eget lacus ullamcorper, id dapibus ante vestibulum. Curabitur quis condimentum diam. Duis aliquet erat vel laoreet tincidunt.
+                        Pellentesque vitae varius ligula. Phasellus in nibh tempus, gravida justo et, suscipit felis. Cras ornare arcu ac sodales tincidunt.
+                        Mauris vehicula erat vel ligula porttitor imperdiet. Curabitur nec magna urna. Sed porta ex ex, at pulvinar nibh aliquet quis. 
+                        Integer dapibus congue vestibulum. Phasellus bibendum lobortis quam, nec sollicitudin nisl volutpat at.
+                    </p>
+                </div>
+                <div class="contact">
+                    <p>Call me now for design</p>
+                    <p>012-1234-4567</p>
+                </div>
+                <div class="localization">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28061.00349417133!2d-52.834429827127686!3d-28.460705500058975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94fd493c92d28c8f%3A0x6ff21ca741cec0c8!2sN%C3%A3o-Me-Toque%2C%20RS%2C%2099470-000!5e0!3m2!1spt-BR!2sbr!4v1659303851705!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </main>
+            <footer>Copyright &copy; fastfashion.com</footer>
+        </div>
+    </body>
+</html>
